@@ -5,7 +5,7 @@ description = "Простой проект для примера"
 authors = ["SkorEgor"]
 
 [tool.poetry.dependencies]
-python = "3.10"
+python = "^3.9"
 
 [tool.poetry.scripts]
 start = "simple_project.main:main"
