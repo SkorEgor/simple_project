@@ -8,7 +8,7 @@ authors = ["SkorEgor"]
 python = "^3.9"
 
 [tool.poetry.scripts]
-start = "simple_project.main:main"
+run-simple_project = "simple_project.main:main"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
